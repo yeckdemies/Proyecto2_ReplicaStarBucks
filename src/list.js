@@ -5,42 +5,42 @@ const products = [
     description:
       'Bebida Baja en Calorías con Extracto de Café Verde y Refrescante Sabor a Lima.',
     ingredientes: ['Té verde', 'Leche'],
-    image: 'public/assets/images/Classic-Chai-Tea-Latte.jpeg'
+    image: 'assets/images/Classic-Chai-Tea-Latte.jpeg'
   },
   {
     name: 'ICED Chai Tea Latte',
     price: 4.5,
     description: 'Té negro chai, hielo y leche o bebida vegetal',
     ingredientes: ['Té negro', 'Leche', 'Bebida vegetal'],
-    image: 'public/assets/images/SBX-UK-MOP-IcedChaiTeaLatte.jpg'
+    image: 'assets/images/SBX-UK-MOP-IcedChaiTeaLatte.jpg'
   },
   {
     name: 'Matcha tea latte',
     price: 5.5,
     description: 'Leche o bebida vegetal con matcha con un sabor único',
     ingredientes: ['Té matcha', 'Leche', 'Bebida vegetal'],
-    image: 'public/assets/images/Matcha-Green-Tea-Latte.jpeg'
+    image: 'assets/images/Matcha-Green-Tea-Latte.jpeg'
   },
   {
     name: 'Iced Matcha tea latte',
     price: 6.5,
     description: 'Leche  o bebida vegetal, hielo y matcha con un sabor único',
     ingredientes: ['Té matcha', 'Leche', 'Bebida vegetal', 'Hielo'],
-    image: 'public/assets/images/Iced-Matcha-Green-Tea-Latte.jpeg'
+    image: 'assets/images/Iced-Matcha-Green-Tea-Latte.jpeg'
   },
   {
     name: 'Iced lemon',
     price: 6.5,
     description: 'Bebida refrescante de limón hielo y limón liofilizado',
     ingredientes: ['Limón', 'Hielo'],
-    image: 'public/assets/images/Iced-Green-Tea-Lemonade.jpeg'
+    image: 'assets/images/Iced-Green-Tea-Lemonade.jpeg'
   },
   {
     name: 'Teavana® Peach Citrus Green Tea Lemonade',
     price: 6.5,
     description: 'Bebida refrescante de cítricos y te verde',
     ingredientes: ['Cítricos', 'Té verde'],
-    image: 'public/assets/images/SBX-UK-MOP-PeachIcedTea.jpg'
+    image: 'assets/images/SBX-UK-MOP-PeachIcedTea.jpg'
   },
   {
     name: 'Teavana® Green Tea Lemonade',
@@ -48,7 +48,7 @@ const products = [
     description:
       'Té Verde Frio con Melocotón y Limonada. Bien Agitado en Coctelera y Servido con Hielo',
     ingredientes: ['Té verde', 'Limonada', 'Melocotón'],
-    image: 'public/assets/images/SBX-UK-MOP-IcedGreenTeaLemonade.jpeg'
+    image: 'assets/images/SBX-UK-MOP-IcedGreenTeaLemonade.jpeg'
   },
   {
     name: 'Teavana® Black Tea Lemonade',
@@ -56,7 +56,7 @@ const products = [
     description:
       'Té Negro Frio con Limonada. Bien Agitado en Coctelera y Servido con Hielo',
     ingredientes: ['Limonada', 'Té negro'],
-    image: 'public/assets/images/Iced-Black-Tea-Lemonade.jpeg'
+    image: 'assets/images/Iced-Black-Tea-Lemonade.jpeg'
   },
   {
     name: 'Teavana® Hibiscus Tea Lemonade',
@@ -64,42 +64,42 @@ const products = [
     description:
       'Infusión de Hibiscus Frio con Limonada. Bien Agitado en Coctelera y Servido con Hielo',
     ingredientes: ['Hibiscus', 'Limonada'],
-    image: 'public/assets/images/Iced-Hibiscus-Tea-Lemonade.jpeg'
+    image: 'assets/images/Iced-Hibiscus-Tea-Lemonade.jpeg'
   },
   {
     name: 'Teavana® Green Tea',
     price: 6.5,
     description: 'Té Verde Frio Servido con Hielo',
     ingredientes: ['Té verde', 'Hielo'],
-    image: 'public/assets/images/Iced-Green-Tea.jpeg'
+    image: 'assets/images/Iced-Green-Tea.jpeg'
   },
   {
     name: 'Teavana® Black Tea',
     price: 6.5,
     description: 'Té Negro Frio Servido con Hielo',
     ingredientes: ['Té negro', 'Hielo'],
-    image: 'public/assets/images/Iced-Black-Tea.jpeg'
+    image: 'assets/images/Iced-Black-Tea.jpeg'
   },
   {
     name: 'Teavana® Hibiscus Infusion',
     price: 6.5,
     description: 'Infusión de Hibiscus con Hielo.',
     ingredientes: ['Hibiscus', 'Hielo'],
-    image: 'public/assets/images/SBX-UK-MOP-HibiscusBlend.jpeg'
+    image: 'assets/images/SBX-UK-MOP-HibiscusBlend.jpeg'
   },
   {
     name: 'English Breakfast',
     price: 6.5,
     description: 'Té negro con cuerpo y ricos matices a roble y malta.',
     ingredientes: ['Té negro'],
-    image: 'public/assets/images/English-Breakfast-Tea.jpeg'
+    image: 'assets/images/English-Breakfast-Tea.jpeg'
   },
   {
     name: 'Earl Grey',
     price: 6.5,
     description: 'Té suave con aromáticos matices a bergamota y lavanda.',
     ingredientes: ['Té aromático', 'Bergamota', 'Lavanda'],
-    image: 'public/assets/images/Earl-Grey-Tea_0.jpeg'
+    image: 'assets/images/Earl-Grey-Tea_0.jpeg'
   },
   {
     name: 'Chai',
@@ -107,7 +107,7 @@ const products = [
     description:
       'Infusión de canela picante, aroma de jengibre y toques de cardamomo.',
     ingredientes: ['Canela', 'Jengibre', 'Cardamomo'],
-    image: 'public/assets/images/Chai-Tea.jpeg'
+    image: 'assets/images/Chai-Tea.jpeg'
   },
   {
     name: 'Mint Citrus Green',
@@ -115,14 +115,14 @@ const products = [
     description:
       'Mezcla equilibrada de té verde con notas de hierbaluisa, hierba de limón y una pizca de menta.',
     ingredientes: ['Té verde', 'Hierbaluisa', 'Hierba de Limón', 'Menta'],
-    image: 'public/assets/images/Mint-Citrus-Tea.jpeg'
+    image: 'assets/images/Mint-Citrus-Tea.jpeg'
   },
   {
     name: 'Mint Blend',
     price: 6.5,
     description: 'Hierbabuena, menta y un toque de hierbaluisa (sin cafeína)',
     ingredientes: ['Hierbabuena', 'Hierbaluisa', 'Menta'],
-    image: 'public/assets/images/Mint-Herbal-Blend-Tea.jpeg'
+    image: 'assets/images/Mint-Herbal-Blend-Tea.jpeg'
   },
   {
     name: 'Emperor Cloud & Mist',
@@ -130,7 +130,7 @@ const products = [
     description:
       'Té verde puro de origen único con un sutil acabado ahumado-dulce.',
     ingredientes: ['Té verde'],
-    image: 'public/assets/images/SBX-UK-MOP-EmperorsClouds&Mist.jpeg'
+    image: 'assets/images/SBX-UK-MOP-EmperorsClouds&Mist.jpeg'
   },
   {
     name: 'Hibiscus',
@@ -138,7 +138,7 @@ const products = [
     description:
       'Toques tropicales de papaya y mango con hibiscus, hierba de limón y un toque de canela (sin cafeína)',
     ingredientes: ['Hibiscus', 'Papaya', 'Mango', 'Hierba de Limón', 'Canela'],
-    image: 'public/assets/images/Hibiscus-Herbal-Blend-Tea.jpeg'
+    image: 'assets/images/Hibiscus-Herbal-Blend-Tea.jpeg'
   },
   {
     name: 'Youthberry',
@@ -146,7 +146,7 @@ const products = [
     description:
       'Té blanco con piña dulce, baya de acaí y un final floral a pétalos de rosa.',
     ingredientes: ['Té blanco', 'Piña', 'Baya', 'Pétalos de rosa'],
-    image: 'public/assets/images/Youthberry-Tea.jpeg'
+    image: 'assets/images/Youthberry-Tea.jpeg'
   }
 ];
 
