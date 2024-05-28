@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon.ico"
+      type="image/x-icon"
+    />
+    <title>Bebidas | Starbucks</title>
+    <script type="module" src="/main.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <img src="assets/images/favicon.png" alt="logo" />
+      <div class="container">
+        <nav>
+          <ul class="primary-menu">
+            <li id="item1"><a href="#">Carta</a></li>
+            <li id="item2"><a href="#">Café</a></li>
+            <li id="item3"><a href="#">Delivery</a></li>
+            <li id="item4"><a href="#">Responsabilidad</a></li>
+            <li id="item5"><a href="#">Merchandising</a></li>
+            <li id="item6"><a href="#">Rewards</a></li>
+            <li id="more"><a href="#">More</a></li>
+          </ul>
+        </nav>
+        <nav>
+          <ul class="secondary-menu">
+            <li>
+              <a href="#">
+                <img
+                  src="assets/images/mapas-y-banderas.png"
+                  alt="Icono maps"
+                />
+                Encuéntranos</a
+              >
+            </li>
+            <li><a href="#" class="primary-button">Inicia Sesión</a></li>
+            <li><a href="#" class="secondary-button">Únete Ahora</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="left">
+        <section>
+          <p>Carta</p>
+          <h2>Bebidas</h2>
+        </section>
+      </div>
+      <div class="right">
+        <section class="presentationText">
+          <h2>
+            Ofrecerte una taza de café perfecta. Este anhelo es lo que nos hizo
+            arrancar en 1971 y lo que nos mantiene en marcha hoy.
+            <span>(Eso, y también el café.)</span>
+          </h2>
+          <p>
+            Por este motivo, nuestros responsables de comprar café recorren el
+            mundo seleccionando cuidadosamente los mejores granos. Por este
+            motivo, nuestros maestros tostadores hacen guardia mientras se
+            tuesta cada lote, para extraer el máximo sabor de cada grano. Y por
+            este motivo, nuestros encantadores baristas preparan artesanalmente
+            cada bebida de acuerdo con tu petición. Queremos que descubras tu
+            bebida perfecta y personal. El grano se merece que uno se sienta tan
+            apasionado por el café como nosotros (y como tú), ¿no crees?
+          </p>
+          <button type="button" class="product-button" id="filterButton">
+            Filtrar
+          </button>
+        </section>
+        <section id="filter" class="filtros hidden">
+          <label for="selectIngredientes">Filtrar por ingrediente</label>
+          <select name="ingredientes" id="selectIngredientes"></select>
+          <label for="price">Filtrar por precio</label>
+          <input type="number" name="price" id="price" />
+          <button type="button" id="buscar">Buscar</button>
+          <button type="button" id="limpiar">Limpiar filtros</button>
+        </section>
+        <section class="cafeGrid"></section>
+        <section class="carta-section">
+          <a href="#" class="product-button">Carta</a>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <section class="menu-footer">
+        <ul>
+          <li><a href="#">Sobre nosotros</a></li>
+          <li><a href="#">Información Nutricional y Alérgenos</a></li>
+          <li><a href="#">Trabaja con nosotros</a></li>
+          <li><a href="#">Responsabilidad</a></li>
+        </ul>
+      </section>
+      <div class="line"></div>
+      <section class="social">
+        <ul>
+          <li>
+            <a href="#"
+              ><img src="assets/images/facebook.png" alt="Facebook"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="assets/images/instagram.png" alt="Instagram"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="assets/images/twitter.png" alt="Twitter"
+            /></a>
+          </li>
+          <li>
+            <a href="#"><img src="assets/images/tictoc.png" alt="Tic Toc" /></a>
+          </li>
+        </ul>
+      </section>
+      <section class="menu-footer2">
+        <ul>
+          <li>
+            <a href="#"> Contacto</a>
+          </li>
+          <li>
+            <a href="#">Política de Privacidad</a>
+          </li>
+          <li>
+            <a href="#">Política de Cookies</a>
+          </li>
+          <li>
+            <a href="#">Configurador de Cookies</a>
+          </li>
+          <li>
+            <a href="#">Sitemap</a>
+          </li>
+          <li>
+            <a href="#">Aviso Legal y Condiciones de Compra</a>
+          </li>
+          <li>
+            <a href="#">Condiciones generales del programa Rewards</a>
+          </li>
+        </ul>
+      </section>
+    </footer>
+  </body>
+</html>
