@@ -27,20 +27,20 @@
 
 @font-face {
   font-family: 'SodoSansLight';
-  src: url('./assets/fonts/SoDoSansLight.ttf') format('truetype');
+  src: url('./public/assets/fonts/SoDoSansLight.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'SodoSansRegular';
-  src: url('./assets/fonts/SoDoSansRegular.ttf') format('truetype');
+  src: url('./public/assets/fonts/SoDoSansRegular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'SodoSansBold';
-  src: url('./assets/fonts/SoDoSansBold.ttf') format('truetype');
+  src: url('./public/assets/fonts/SoDoSansBold.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -160,7 +160,7 @@ main {
 }
 
 .left {
-  background-image: url(/assets/images/card05.png.png);
+  background-image: url('public/assets/images/card05.png.png');
   position: sticky;
   display: flex;
   flex-direction: column;
@@ -404,7 +404,7 @@ footer {
 
   .left {
     position: relative;
-    background-image: url('/assets/images/card05.png.png');
+    background-image: url('public/assets/images/card05.png.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
